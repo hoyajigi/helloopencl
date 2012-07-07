@@ -1,0 +1,33 @@
+﻿Build started 2012-03-27 오후 10:16:45.
+     1>Project "C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\helloopencl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\helloopencl.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\Debug\helloopencl.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\lib\Win32" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\helloopencl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\Debug\helloopencl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\Debug\helloopencl.lib" /MACHINE:X86 Debug\helloopencl.exe.embed.manifest.res
+         Debug\simple_image.obj
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_destroy_read_struct referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_read_end referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_read_row referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_get_rowbytes referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_get_image_height referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_get_image_width referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_read_info referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_init_io referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_create_info_struct referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_create_read_struct referenced in function _read_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_destroy_write_struct referenced in function _write_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_write_end referenced in function _write_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_write_row referenced in function _write_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_write_info referenced in function _write_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_set_IHDR referenced in function _write_image_data
+     1>simple_image.obj : error LNK2019: unresolved external symbol _png_create_write_struct referenced in function _write_image_data
+     1>C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\Debug\helloopencl.exe : fatal error LNK1120: 16 unresolved externals
+     1>Done Building Project "C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\helloopencl.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.08

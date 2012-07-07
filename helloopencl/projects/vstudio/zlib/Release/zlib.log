@@ -1,0 +1,33 @@
+﻿Build started 2012-03-27 오후 10:12:46.
+     1>Project "C:\Users\hoyajigi\Downloads\lpng159\lpng159\projects\vstudio\zlib\zlib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX /Ox /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /FR"Release\\" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\zlib-1.2.5\adler32.c" "..\..\..\..\zlib-1.2.5\compress.c" "..\..\..\..\zlib-1.2.5\crc32.c" "..\..\..\..\zlib-1.2.5\deflate.c" "..\..\..\..\zlib-1.2.5\infback.c" "..\..\..\..\zlib-1.2.5\inffast.c" "..\..\..\..\zlib-1.2.5\inflate.c" "..\..\..\..\zlib-1.2.5\inftrees.c" "..\..\..\..\zlib-1.2.5\trees.c" "..\..\..\..\zlib-1.2.5\uncompr.c" "..\..\..\..\zlib-1.2.5\zutil.c"
+         adler32.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\adler32.c': No such file or directory
+         compress.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\compress.c': No such file or directory
+         crc32.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\crc32.c': No such file or directory
+         deflate.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\deflate.c': No such file or directory
+         infback.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\infback.c': No such file or directory
+         inffast.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\inffast.c': No such file or directory
+         inflate.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\inflate.c': No such file or directory
+         inftrees.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\inftrees.c': No such file or directory
+         trees.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\trees.c': No such file or directory
+         uncompr.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\uncompr.c': No such file or directory
+         zutil.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\..\zlib-1.2.5\zutil.c': No such file or directory
+     1>Done Building Project "C:\Users\hoyajigi\Downloads\lpng159\lpng159\projects\vstudio\zlib\zlib.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.05

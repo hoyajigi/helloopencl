@@ -1,0 +1,15 @@
+﻿Build started 2012-03-27 오후 10:25:56.
+     1>Project "C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\projects\vstudio\pngvalid\pngvalid.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release Library\pngvalid.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\projects\vstudio\Release Library\pngvalid.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\projects\vstudio\Release Library\\" libpng15.lib zlib.lib /MANIFEST /ManifestFile:"Release Library\pngvalid.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\projects\vstudio\Release Library\pngvalid.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\projects\vstudio\Release Library\pngvalid.lib" /MACHINE:X86 "Release Library\pngvalid.obj"
+     1>zlib.lib(zutil.obj) : error LNK2001: unresolved external symbol _gzflags
+     1>C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\projects\vstudio\Release Library\pngvalid.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\hoyajigi\Documents\Visual Studio 2010\Projects\helloopencl\helloopencl\projects\vstudio\pngvalid\pngvalid.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.06
